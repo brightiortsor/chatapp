@@ -1,10 +1,18 @@
 import React from "react";
+import { FcSearch } from "react-icons/fc";
+import { MdCancel } from "react-icons/md";
+import { CgSortAz } from "react-icons/cg";
 
 const Search = () => {
   return (
     <div className="search">
-      <div className="search-form">
-        <input type="text" placeholder="find a user" />
+      <div className="search-box">
+        <div className="search-form">
+          <FcSearch className="search-icon" />
+          <input type="text" placeholder="Search" />
+          <MdCancel className="close-icon" />
+        </div>
+        <CgSortAz className="sort-icon" />
       </div>
       <div className="user-chat">
         <img
