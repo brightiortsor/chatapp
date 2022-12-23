@@ -20,7 +20,7 @@ const Search = () => {
           alt="avatar"
         />
         <div className="user-chat_info">
-          <span className="username">Bright Clement</span>
+          <span className="username">Theresa</span>
         </div>
       </div>
     </div>

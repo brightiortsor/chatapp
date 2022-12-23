@@ -11,7 +11,7 @@ const Navbar = () => {
         />
         <span className="username">Bright</span>
       </div>
-      <button>LogOut</button>
+      <button>Logout</button>
     </div>
   );
 };
