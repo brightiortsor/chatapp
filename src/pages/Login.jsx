@@ -58,7 +58,7 @@ const Login = () => {
           <button type="submit">Login</button>
           <h4 className="error">{error}</h4>
         </form>
-        <p>Start chatting ...</p>
+        <p>Use 'John' and '12345' to test.</p>
       </div>
     </div>
   );
